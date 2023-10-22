@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.container input[type="text"],
+.container input[type="button"],
+.container a {
+    padding: 10px 20px; 
+    margin-right: 15px; 
+    margin-top: 0;
+    text-decoration: none; 
+    background-color:none;
+    color: #fff;
+    border: none;
+}
+
+.container a {
+    padding: 8px 20px; 
+    color: black;
+}
+
+.container input[type="text"] {
+    border-bottom: solid black;
+}
+
+.container a:active{
+    background-color: black;
+    color: white;
+}
+
+.container input[type="button"] { 
+    background-color: white;
+    color: black;
+}
+
+.container input[type="button"]:active { 
+    background-color: black;
+    color: white;
+}
+
+.container input[type="text"] { 
+    color: black;
+    padding: 0px;
+}
+
+.container input[type="text"]:focus { 
+    background: transparent !important; 
+    border: none; 
+    box-shadow: 0 0 15px rgba(110, 27, 27, 0.9);
+    padding: 10px; 
+    outline: none;
+}
+
+.container-two {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-two img {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-three{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-three p {
+    width: 500px;
+}
+
+@media (max-width: 700px){
+    .container-two img {
+        max-width: 100%;
+    }   
+}
+
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin-left:10%;
+}
+
+.container-four img {
+    width: 50%;
+    margin:10px;
+}
+
+@media (max-width: 700px){
+    .container-four {
+        flex-direction: column;
+        margin: 0;
+        padding: 0%;
+    }
+    .container-four img{
+        width: 100%;
+    }
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    margin-top: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+    margin-right: 20px;
+}
+
+.about-p {
+    max-width: 80%;
+    margin-left:10%;
+}
