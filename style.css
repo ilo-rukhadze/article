@@ -115,6 +115,9 @@ html, body {
         flex-direction: column;
         justify-content: center;
     }
+    .container input[type="button"] {
+        margin-top: 10px;
+    }
 }
 
 footer {
