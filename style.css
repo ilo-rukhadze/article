@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -103,12 +103,30 @@ html, body {
 
 @media (max-width: 700px){
     .container-four {
+        display: unset;
         flex-direction: column;
-        margin: 0;
-        padding: 0%;
+        margin: 0px;
+        padding: 0px;
         justify-content: center;
+        align-items: center;
+    }
+    .article-one{
+        max-width: 100%;
+        margin-right: 0px;}
+
+    .container-four p {
+        padding: 0%;
+        margin: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
+        padding: 0%;
+    }
+    .container-four h2 {
+        margin-left: 5%;
     }
     .container-four img{
+        margin:0%;
         width: 100%;
     }
     .container{
@@ -117,6 +135,14 @@ html, body {
     }
     .container input[type="button"] {
         margin-top: 10px;
+    }
+    .about-p {
+        margin-left: 5%;
+    }
+    .container-three p { 
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
     }
 }
 
