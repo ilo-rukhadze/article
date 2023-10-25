@@ -92,7 +92,7 @@ html, body {
 .container-four {
     display: flex;
     justify-content: center;
-    max-width: 80%;
+    width: 80%;
     margin-left:10%;
 }
 
@@ -103,15 +103,16 @@ html, body {
 
 @media (max-width: 700px){
     .container-four {
-        display: unset;
+        display: flex;
         flex-direction: column;
+        width: 100%;
         margin: 0px;
         padding: 0px;
         justify-content: center;
         align-items: center;
     }
     .article-one{
-        max-width: 100%;
+        width: 100%;
         margin-right: 0px;}
 
     .container-four p {
@@ -125,19 +126,19 @@ html, body {
     .container-four h2 {
         margin-left: 5%;
     }
-    .container-four img{
-        margin:0%;
+    .container-four img {
         width: 100%;
+        margin:0px;
     }
+
+
+
     .container{
         flex-direction: column;
         justify-content: center;
     }
     .container input[type="button"] {
         margin-top: 10px;
-    }
-    .about-p {
-        margin-left: 5%;
     }
     .container-three p { 
         margin-left: 5%;
